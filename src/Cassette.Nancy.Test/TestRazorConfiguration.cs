@@ -12,7 +12,7 @@ namespace Cassette.Nancy.Test
 
     public IEnumerable<string> GetAssemblyNames()
     {
-      return new List<string> { "Cassette", "Cassette.Nancy" };
+      return new List<string> { "Cassette", "Cassette.Nancy", "Nancy.ViewEngines.Razor" };
     }
 
     public IEnumerable<string> GetDefaultNamespaces()
